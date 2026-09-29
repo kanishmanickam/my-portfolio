@@ -142,15 +142,21 @@ const About = () => {
   const experience = [
     {
       title: 'Full Stack Developer',
-      company: 'Personal Projects',
+      company: 'Personal & Academic Projects',
       period: '2024 - Present',
-      description: 'Building web applications with React, Node.js, and modern technologies.',
+      description: 'Built 7+ projects spanning full-stack web apps, AI/ML systems, cybersecurity, and embedded systems using React, Node.js, MongoDB, Python, and more.',
+    },
+    {
+      title: 'AI & ML Engineer',
+      company: 'Academic Projects',
+      period: '2024 - 2025',
+      description: 'Developed MediStock AI with TensorFlow.js LSTM demand forecasting and Gemini chatbot, and a YOLOv8-based human detection system for drone footage.',
     },
     {
       title: 'Mobile App Developer',
       company: 'Academic Projects',
       period: '2025',
-      description: 'Developed StudSync - A comprehensive student management mobile application using Flutter for cross-platform deployment with Firebase integration.',
+      description: 'Developed StudSync — a cross-platform student management app using Flutter and Firebase with real-time attendance, timetable, and event management.',
     },
   ];
 
@@ -229,8 +235,8 @@ const About = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7 }}
               >
-                I focus on creating interactive solutions and I'm passionate about coding, always eager to learn and grow in the field. 
-                Currently pursuing B.Tech in Computer Science Engineering at Amrita Vishwa Vidyapeetham, Coimbatore, 
+                I focus on creating interactive solutions and I'm passionate about coding, always eager to learn and grow in the field.
+                Currently pursuing B.Tech in Computer Science Engineering at Amrita Vishwa Vidyapeetham, Coimbatore,
                 my journey in tech has equipped me with strong problem-solving skills and hands-on experience in building practical applications.
               </motion.p>
               <motion.p
@@ -271,7 +277,7 @@ const About = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2 }}
             >
-              <img 
+              <img
                 src={amritaPhoto}
                 alt="Amrita Vishwa Vidyapeetham Coimbatore Campus"
                 className="education-image"
@@ -565,8 +571,8 @@ const About = () => {
             animate="visible"
           >
             {[
-              { icon: '💻', number: '3+', label: 'Projects Completed' },
-              { icon: '🏆', number: '5+', label: 'Technologies Learned' },
+              { icon: '💻', number: '7+', label: 'Projects Completed' },
+              { icon: '🏆', number: '15+', label: 'Technologies Learned' },
               { icon: '⚡', number: '100+', label: 'Problems Solved' },
             ].map((fact, index) => (
               <motion.div

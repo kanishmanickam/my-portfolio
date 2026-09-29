@@ -6,26 +6,21 @@ const UpcomingProjects = () => {
   const upcomingProjects = [
     {
       id: 1,
-      title: 'Accessible Language Learning Platform',
-      description: 'A cloud-based, multi-modal language learning platform specifically engineered for learners with cognitive, linguistic, and sensory learning disabilities including dyslexia, ADHD, autism spectrum disorders, and auditory comprehension challenges.',
-      technologies: ['React', 'Node.js', 'NLP', 'Microservices', 'Cloud Architecture', 'AI/ML'],
+      title: 'AWS Cloud Storage System',
+      description: 'A production-grade, full-stack cloud-based student file storage and management system using MERN stack integrated with AWS SDK v3 (S3 for file storage, CloudWatch for logging) and JWT authentication.',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'AWS S3', 'CloudWatch', 'JWT'],
       status: 'In Development',
-      progress: 45,
-      expectedDate: 'Q2 2025',
+      progress: 60,
+      expectedDate: 'Q4 2025',
       features: [
-        'Multi-modal instruction with text, audio, and visual cues',
-        'Dyslexia-friendly fonts and high-contrast accessibility themes',
-        'Text-to-speech and speech-to-text assistive support',
-        'NLP-based automated evaluation of spoken/written responses',
-        'Intelligent recommendation engine with adaptive learning paths',
-        'Real-time collaborative learning frameworks',
-        'Adjustable pacing and distraction-free navigation',
-        'Localization support for Indian languages',
-        'Scalable microservices-based architecture',
-        'Guided pronunciation with phonetic reinforcement'
+        'AWS S3 integration for secure student file upload, download, and delete',
+        'CloudWatch logging for monitoring and audit trails',
+        'JWT-based authentication with user dashboard',
+        'File management with metadata and access control',
+        'Deployment-ready with Docker and CI/CD pipeline'
       ],
-      gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-      icon: '🧠'
+      gradient: 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
+      icon: '☁️'
     },
     {
       id: 2,
@@ -34,7 +29,7 @@ const UpcomingProjects = () => {
       technologies: ['React', 'TypeScript', 'GraphQL', 'D3.js'],
       status: 'In Development',
       progress: 65,
-      expectedDate: 'Q1 2025',
+      expectedDate: 'Q1 2026',
       features: [
         'Multi-platform integration',
         'Real-time analytics',
@@ -52,7 +47,7 @@ const UpcomingProjects = () => {
       technologies: ['TypeScript', 'OpenAI API', 'VS Code API', 'Node.js'],
       status: 'Planning',
       progress: 30,
-      expectedDate: 'Q2 2025',
+      expectedDate: 'Q2 2026',
       features: [
         'Context-aware suggestions',
         'Automatic documentation',

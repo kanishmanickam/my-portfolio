@@ -93,8 +93,8 @@ const Home = () => {
             variants={itemVariants}
           >
             <h1 className="name">
-              <DecryptedText 
-                text="Kanish Kumaran M" 
+              <DecryptedText
+                text="Kanish Kumaran M"
                 animateOn="view"
                 speed={40}
                 sequential={true}
@@ -118,8 +118,8 @@ const Home = () => {
             >
               I am a{' '}
               <span className="gradient-text-accent">
-                <DecryptedText 
-                  text="Problem Solver" 
+                <DecryptedText
+                  text="Problem Solver"
                   animateOn="view"
                   speed={50}
                   sequential={true}
@@ -135,9 +135,9 @@ const Home = () => {
             className="description"
             variants={itemVariants}
           >
-            Computer Science Engineering student at Amrita Vishwa Vidyapeetham, Coimbatore, passionate about 
-            full-stack web development and creating scalable, user-centric applications. Proficient in React, 
-            Node.js, and modern technologies, with a solid foundation in Data Structures & Algorithms and an 
+            Computer Science Engineering student at Amrita Vishwa Vidyapeetham, Coimbatore, passionate about
+            full-stack web development and creating scalable, user-centric applications. Proficient in React,
+            Node.js, and modern technologies, with a solid foundation in Data Structures & Algorithms and an
             interest in problem-solving and system design.
           </motion.p>
 
@@ -210,25 +210,25 @@ const Home = () => {
             transition={{ duration: 0.6, ease: "easeOut" }}
             whileHover={{ scale: 1.05 }}
           >
-            <motion.div 
+            <motion.div
               className="profile-ring ring-1"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             ></motion.div>
-            <motion.div 
+            <motion.div
               className="profile-ring ring-2"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             ></motion.div>
-            <motion.div 
+            <motion.div
               className="profile-ring ring-3"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             ></motion.div>
-            <motion.div 
+            <motion.div
               className="profile-image"
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
@@ -311,7 +311,7 @@ const Home = () => {
               animate={{ scale: 1 }}
               transition={{ delay: 2, type: 'spring', stiffness: 200 }}
             >
-              3+
+              7+
             </motion.div>
             <div className="stat-label">Projects</div>
           </motion.div>
@@ -326,7 +326,7 @@ const Home = () => {
               animate={{ scale: 1 }}
               transition={{ delay: 2.2, type: 'spring', stiffness: 200 }}
             >
-              5+
+              15+
             </motion.div>
             <div className="stat-label">Technologies</div>
           </motion.div>
