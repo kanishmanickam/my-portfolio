@@ -6,6 +6,24 @@ const UpcomingProjects = () => {
   const upcomingProjects = [
     {
       id: 1,
+      title: 'Human Cyber Vulnerability Score',
+      description: 'An AI-driven cybersecurity platform that assesses an individual\'s susceptibility to cyber threats based on behavioral patterns and decision-making tendencies — generating a personalized risk score.',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'AWS EC2', 'CloudWatch'],
+      status: 'In Progress',
+      progress: 25,
+      expectedDate: '2027',
+      features: [
+        'Behavioral cybersecurity assessment with automated scoring',
+        'Risk-level classification and personalized results dashboard',
+        'Secure user authentication with role-based access control',
+        'Cloud deployment on AWS EC2 with monitoring via CloudWatch',
+        'Scalable backend supporting ~200 concurrent users'
+      ],
+      gradient: 'linear-gradient(135deg, #1a1a2e 0%, #e94560 100%)',
+      icon: '🛡️'
+    },
+    {
+      id: 2,
       title: 'AWS Cloud Storage System',
       description: 'A production-grade, full-stack cloud-based student file storage and management system using MERN stack integrated with AWS SDK v3 (S3 for file storage, CloudWatch for logging) and JWT authentication.',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'AWS S3', 'CloudWatch', 'JWT'],
@@ -23,13 +41,13 @@ const UpcomingProjects = () => {
       icon: '☁️'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Social Media Dashboard',
       description: 'A comprehensive analytics dashboard for managing multiple social media accounts with real-time insights and scheduling features.',
       technologies: ['React', 'TypeScript', 'GraphQL', 'D3.js'],
-      status: 'In Development',
-      progress: 65,
-      expectedDate: 'Q1 2026',
+      status: 'Planning',
+      progress: 20,
+      expectedDate: 'Q2 2026',
       features: [
         'Multi-platform integration',
         'Real-time analytics',
@@ -39,24 +57,6 @@ const UpcomingProjects = () => {
       ],
       gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
       icon: '📊'
-    },
-    {
-      id: 3,
-      title: 'AI Code Assistant',
-      description: 'An intelligent VS Code extension that provides context-aware code suggestions, refactoring assistance, and automatic documentation.',
-      technologies: ['TypeScript', 'OpenAI API', 'VS Code API', 'Node.js'],
-      status: 'Planning',
-      progress: 30,
-      expectedDate: 'Q2 2026',
-      features: [
-        'Context-aware suggestions',
-        'Automatic documentation',
-        'Code refactoring',
-        'Bug detection',
-        'Learning from codebase'
-      ],
-      gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-      icon: '🤖'
     }
   ];
 
