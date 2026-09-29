@@ -6,21 +6,22 @@ const UpcomingProjects = () => {
   const upcomingProjects = [
     {
       id: 1,
-      title: 'Human Cyber Vulnerability Score',
-      description: 'An AI-driven cybersecurity platform that assesses an individual\'s susceptibility to cyber threats based on behavioral patterns and decision-making tendencies — generating a personalized risk score.',
-      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'AWS EC2', 'CloudWatch'],
+      title: 'CyberRisk: Dispositional Factors in Cybersecurity Risk Assessment',
+      description: 'A human-centric cybersecurity risk assessment platform that evaluates psychological and behavioural factors to generate a probabilistic Cyber Vulnerability Score (CVS). Uses Bayesian Network inference combined with Explainable AI to produce an interpretable individual risk profile.',
+      technologies: ['Next.js 14', 'FastAPI', 'Python', 'PostgreSQL', 'SQLAlchemy', 'Docker', 'Nginx'],
       status: 'In Progress',
-      progress: 25,
+      progress: 35,
       expectedDate: '2027',
       features: [
-        'Behavioral cybersecurity assessment with automated scoring',
-        'Risk-level classification and personalized results dashboard',
-        'Secure user authentication with role-based access control',
-        'Cloud deployment on AWS EC2 with monitoring via CloudWatch',
-        'Scalable backend supporting ~200 concurrent users'
+        '42-question behavioural assessment (forced choice, image-based & gamified formats)',
+        'Bayesian Network inference with Min-Max Hill Climbing for risk modelling',
+        'Explainable AI — Shapley values, counterfactual analysis & narrative generation',
+        'Cyber Vulnerability Score (CVS) with individual risk classification',
+        'FastAPI backend with PostgreSQL, Docker Compose & Nginx deployment',
+        'REST API with Swagger UI, authentication & structured exception handling'
       ],
-      gradient: 'linear-gradient(135deg, #1a1a2e 0%, #e94560 100%)',
-      icon: '🛡️'
+      gradient: 'linear-gradient(135deg, #0f0c29 0%, #e94560 100%)',
+      icon: '🔐'
     },
     {
       id: 2,
